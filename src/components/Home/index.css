@@ -1,0 +1,53 @@
+.home-container {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://images.saymedia-content.com/.image/c_limit%2Ccs_srgb%2Cq_auto:eco%2Cw_700/MTkyOTkyMzE2OTQ3MjQ0MjUz/website-background-templates.webp');
+  background-size: cover;
+}
+.home-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-head {
+  color: rgb(222, 113, 41);
+  font-family: 'courier';
+  font-size: 30px;
+  margin: 10px 0 0 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 90%;
+  animation: type 3s steps(60, end);
+}
+@keyframes type {
+  from {
+    width: 0;
+  }
+}
+
+.desc {
+  font-family: 'courier';
+  font-size: 20px;
+  margin-top: 10px;
+}
+.btn {
+  background-color: rgb(74, 52, 198);
+  color: #ffffff;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 16px;
+  font-weight: 400;
+  border: 0px;
+  border-radius: 12px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  outline: none;
+  cursor: pointer;
+  margin-top: 30px;
+}

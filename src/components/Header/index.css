@@ -1,0 +1,39 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.nav-container {
+  height: 20vh;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTV3iJnJFwE_THmC_D1q7OUHGUjXxhIVY6qOw&s');
+  background-size: cover;
+}
+.nav-section {
+  max-height: 20vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 40px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.logo {
+  width: 140px;
+}
+.nav-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-link {
+  color: #000;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  margin-right: 24px;
+  text-decoration: none;
+}
+@media screen and (min-width: 768px) {
+  .nav-link {
+    margin-right: 40px;
+  }
+}
